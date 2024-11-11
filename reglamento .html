@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>Reglas del Fútbol</title>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuItems = document.querySelectorAll('.MENU > li');
+
+            menuItems.forEach(function(item) {
+                item.addEventListener('click', function() {
+                    const submenu = this.querySelector('.submenu');
+                    if (submenu.style.visibility === 'visible') {
+                        submenu.style.visibility = 'hidden';
+                        submenu.style.opacity = '0';
+                    } else {
+                        submenu.style.visibility = 'visible';
+                        submenu.style.opacity = '1';
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+         <nav>
+    <ul class="MENU">
+        <li><a href="#">Introducción</a></li>
+        <li>
+            <a href="#">Historia</a>
+            <ul class="submenu">
+                <li><a href="historia .html">Historia</a></li>
+                <li><a href="competencia .html">Competencias</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Técnico</a>
+            <ul class="submenu">
+                <li><a href="tácticas .html">Tácticas</a></li>
+                <li><a href="Posiciones del Fútbol.html">Posiciones</a></li>
+                <li><a href="reglamento .html">Reglamento</a></li>
+            </ul>
+        </li>
+    </ul> 
+  </nav>
+        <h1>Reglas del Fútbol</h1>
+    </header>
+    <section id="competencias" class="larger-text">
+    <div  >
+        <b><h3>1. El Terreno de Juego</h3></b>
+        <p>
+            <strong>Dimensiones:</strong> El campo de juego debe ser rectangular.
+            <ul>
+                <li><strong>Longitud:</strong> 90-120 metros (100-130 yardas).</li>
+                <li><strong>Anchura:</strong> 45-90 metros (50-100 yardas).</li>
+            </ul>
+        </p>
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Football_pitch_spanish_metric.svg/300px-Football_pitch_spanish_metric.svg.png" alt="Dimensiones del terreno de juego">
+        </div>
+    </section>
+
+    <section id="balon" class="larger-text">
+        <div >
+        <h2>2. El Balón</h2>
+        <p>
+            <strong>Forma:</strong> Esférico.
+            <ul>
+                <li><strong>Circunferencia:</strong> 68-70 cm (27-28 pulgadas).</li>
+                <li><strong>Peso:</strong> 410-450 g (14-16 oz).</li>
+                <li><strong>Material:</strong> Cuero o material similar aprobado.</li>
+            </ul>
+        </p>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS531rdkNVLFTPMkGMUsYPfZqs-uFkQbJDjRA&s" alt="Balón de fútbol">
+      </div>
+        </section>
+    </item>
+
+    <section id="jugadores">
+        <h2>3. Número de Jugadores</h2>
+        <p>
+            <strong>Jugadores por equipo:</strong> Máximo de 11, incluyendo al portero.
+            <br>
+            <strong>Sustituciones:</strong> Hasta 5 en competiciones oficiales (puede variar según la normativa específica de cada competición).
+        </p>
+        <div>
+            <img src="https://pxcdn.meridiano.net/122023/1701797119681.jpg" width="300px" height="160px" alt="Jugadores de fútbol">
+        </div>
+    </section>
+
+    <section id="equipamiento">
+        <h2>4. Equipamiento de los Jugadores</h2>
+        <p>
+            <strong>Equipamiento básico:</strong> Camiseta, pantalones cortos, medias, espinilleras y calzado adecuado.
+            <br>
+            <strong>Colores:</strong> Los equipos deben tener colores que los diferencienclaramente entre sí y del árbitro.
+        </p>
+        <div>
+            <img src="https://previews.123rf.com/images/anawhite/anawhite1511/anawhite151100001/48712482-f%C3%BAtbol-jugador-de-f%C3%BAtbol-uniformes-y-otros-equipos.jpg" width="300px" height="300px"alt="Equipamiento de los jugadores">
+        </div>
+    </section>
+
+    <section id="arbitro">
+        <h2>5. El Árbitro</h2>
+        <p>
+            <strong>Autoridad:</strong> Plena autoridad para hacer cumplir las reglas durante el partido.
+            <br>
+            <strong>Decisiones:</strong> Son definitivas y deben ser respetadas.
+        </p>
+        <div>
+            <img src="https://realvalladolidacademy.com/wp-content/uploads/2023/03/17770.jpg" width="300px" height="180" alt="El árbitro">
+        </div>
+    </section>
+
+    <section id="otros">
+        <h2>6. Otros Oficiales del Partido</h2>
+        <p>
+            <strong>Árbitros asistentes:</strong> Ayudan al árbitro principal en decisiones como fuera de juego y lanzamientos de banda.
+            <br>
+            <strong>Cuarto árbitro:</strong> Maneja las sustituciones y ayuda con tareas administrativas.
+        </p>
+        <div>
+            <img src="https://c8.alamy.com/compes/w9m7dj/arbitro-asistente-michelle-o-neill-durante-la-final-de-la-supercopa-de-la-uefa-a-besiktas-park-estambul-w9m7dj.jpg" width="250" height="350px" alt="Árbitros asistentes">
+        </div>
+    </section>
+
+    <section id="duracion">
+        <h2>7. Duración del Partido</h2>
+        <p>
+            <strong>Tiempo reglamentario:</strong> Dos tiempos de 45 minutos cada uno.
+            <br>
+            <strong>Tiempo de descanso:</strong> No debe exceder de 15 minutos.
+            <br>
+            <strong>Tiempo añadido:</strong> Decidido por el árbitro para compensar interrupciones.
+        </p>
+        <div>
+            <img src="https://us.123rf.com/450wm/3rus/3rus2006/3rus200600127/148900213-tiempo-min-90-reloj-cron%C3%B3metro-iconos-de-conjunto-aislados-etiquete-el-tiempo-de-cocci%C3%B3n.jpg?ver=6" width="300px" height="300px"alt="Duración del partido">
+        </div>
+    </section>
+
+    <section id="inicio">
+        <h2>8. Inicio y Reanudación del Juego</h2>
+        <p>
+            <strong>Saque inicial:</strong> Realizado al comienzo de cada tiempo y después de cada gol.
+            <br>
+            <strong>Balón a tierra:</strong> Se usa para reanudar el juego cuando se detiene por una razón que no se debe a una infracción.
+        </p>
+        <div>
+            <img src="https://defutbolydelavida.wordpress.com/wp-content/uploads/2014/06/saque-inicial.jpg" width="300px" height="160px"alt="Saque inicial">
+        </div>
+    </section>
+
+    <section id="balon-juego">
+        <h2>9. El Balón en Juego o Fuera de Juego</h2>
+        <p>
+            <strong>Balón en juego:</strong> Cuando está dentro de las líneas del campo y el árbitro no ha detenido el juego.
+            <br>
+            <strong>Balón fuera de juego:</strong> Cuando cruza completamente las líneas de gol o de banda, o el árbitro detiene el juego.
+        </p>
+        <div>
+            <img src="https://i.ytimg.com/vi/-SJfzItY8mE/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-A4ACgAOKAgwIABABGEAgUChlMA8=&rs=AOn4CLCb6LAgcj_h2gtSLj1MoO1PCe9IEg" width="300px" height="200px"alt="Balón fuera de juego">
+        </div>
+    </section>
+
+    <section id="gol">
+        <h2>10. El Gol</h2>
+        <p>
+            <strong>Gol válido:</strong> Cuando el balón cruza completamente la línea de gol entre los postes y debajo del travesaño, siempre que no se haya cometido ninguna infracción.
+        </p>
+        <div>
+            <img src="https://cdn2.mediotiempo.com/uploads/media/2022/11/28/cristiano-ronaldo-celebrando-gol-mundial.jpg" width="300px" height="180px" alt="Gol">
+        </div>
+    </section>
+
+    <section id="fuera">
+        <h2>11. El Fuera de Juego</h2>
+        <p>
+            <strong>Posición de fuera de juego:</strong> Un jugador está en fuera de juego si está más cerca de la línea de gol contraria que el balón y el penúltimo adversario, a menos que esté en su propia mitad del campo.
+            <br>
+            <strong>Infracción:</strong> Solo se sanciona si el jugador participa en el juego activo.
+        </p>
+        <div>
+            <img src="https://posiciondegol.com/wp-content/uploads/2023/11/posicion-adelantada-futbol-1-jpg.webp" width="300px" height="180px"alt="Fuera de juego">
+        </div>
+    </section>
+
+    <section id="faltas">
+        <h2>12. Faltas e Incorrecciones</h2>
+        <p>
+            <strong>Faltas sancionables con tiro libre:</strong> Patadas, zancadillas, cargas, golpes, empujones, y jugar el balón con la mano.
+            <br>
+            <strong>Faltas sancionables con tarjeta:</strong> Conducta antideportiva, protestar, retrasar la reanudación del juego, etc.
+        </p>
+        <div>
+            <img src="https://a.espncdn.com/photo/2018/0526/r375761_1296x729_16-9.jpg" width="300px" height="180px"alt="Faltas en el fútbol">
+        </div>
+    </section>
+
+    <section id="tiros">
+        <h2>13. Tiros Libres</h2>
+        <p>
+            <strong>Tiros libres directos:</strong> Se concede por faltas sancionables, donde el equipo contrario puede anotar directamente.
+            <br>
+            <strong>Tiros libres indirectos:</strong> Se concede por infracciones técnicas o fuera de juego, donde un gol solo se puede marcar si otro jugador toca el balón antes del gol.
+        </p>
+        <div>
+            <img src="https://s3.amazonaws.com/prod-wp-tvcdeportes/wp-content/uploads/2023/03/Cu%C3%A1ntos-goles-de-tiro-libre-tiene-cr7.png" width="300px" height="180px"alt="Tiros libres">
+        </div>
+    </section>
+
+    <section id="penalti">
+        <h2>14. El Penalti</h2>
+        <p>
+            <strong>Lugar:</strong> Se marca desde el punto penal, a 11 metros de la línea de gol.
+            <br>
+            <strong>Proceso:</strong> El jugador debe lanzar el balón hacia la portería sin ser tocado nuevamente por él hasta que sea tocado por otro jugador.
+        </p>
+        <div>
+            <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/01/27/15170695966298.jpg" width="300px" height="200px"alt="Penalti">
+        </div>
+    </section>
+
+    <section id="saque-banda">
+        <h2>15. Saque de Banda</h2>
+        <p>
+            <strong>Proceso:</strong> Se realiza desde la línea de banda en el punto donde el balón salió fuera del campo.
+            <br>
+            <strong>Forma:</strong> Con las manos, ambos pies en el suelo y el balón por encima de la cabeza.
+        </p>
+        <div>
+            <img src="https://www.sopitas.com/wp-content/uploads/2022/05/liverpool-saques-de-banda-entrenador-champions-league.jpg?w=683" width="200px" height="300px" alt="Saque de banda">
+        </div>
+    </section>
+
+    <section id="saque-meta">
+        <h2>16. Saque de Meta</h2>
+        <p>
+            <strong>Proceso:</strong> Se realiza desde la línea de meta por un jugador defensor después de que el balón haya cruzado la línea de meta sin un gol.
+            <br>
+            <strong>Forma:</strong> Puede realizarse con el pie o la mano, desde cualquier punto dentro del área de meta.
+        </p>
+        <div>
+            <img src="https://www.guinnessworldrecords.es/Images/Longest-football-drop-kick-attempt_tcm29-525463.jpg" width="300px" height="200px" alt="Saque de meta">
+        </div>
+    </section>
+
+    <section id="saque-esquina">
+        <h2>17. Saque de Esquina</h2>
+        <p>
+            <strong>Proceso:</strong> Se realiza desde el cuarto de círculo más cercano al lugar donde el balón cruzó la línea de meta, cuando fue tocado por un jugador defensor y salió fuera de la meta.
+            <br>
+            <strong>Forma:</strong> Se realiza con el pie, el balón colocado en el cuarto de círculo.
+        </p>
+        <div>
+            <img src="https://pbs.twimg.com/media/EN6wAuwWAAI2J4i.jpg" width="300px" height="400px"  alt="Saque de esquina">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Reglas del Fútbol - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

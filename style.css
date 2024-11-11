@@ -1,0 +1,134 @@
+  body {
+            background-image: url('https://images.app.goo.gl/6AsAQ73baNfWT96K7');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #000;
+            font-family: Arial, sans-serif;
+        }
+  .MENU > li{
+  position: relative;            /* Puede cambiar o desplazarse de acuerdo a la posicion inicial.*/
+  display:inline-block;
+  background-color: #ccff99;
+  list-style: none;
+}
+            
+.MENU > li > a{
+  display:block;
+  padding: 15px 20px;
+  color: #000000;
+  font-family: "Open sans";    
+  text-decoration: none;
+  list-style: none;
+}
+
+.MENU li a:hover{
+   color: #031233;
+   transition: all .3s; 
+}
+
+/* Definicion de estilo para el Submenu de navegacion */
+.submenu{
+    position: absolute;       /* Se puede colocar en cualquier lugar y permanecer allí*/  
+    background: #588984;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #41ff07;
+    font-family: "Open sans";
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+ }
+        header, h1, h2, section, footer {
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 100, 0, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        iframe {
+            width: 800px;
+            height: 350px; /* Reducida para un formato más rectangular */
+            border: none;
+        }
+        p {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+            background-color: rgba(0, 100, 0, 0.8);
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        section {
+            margin: 40px 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .item {
+            width: 300px;
+            margin: 10px;
+            background-color: rgba(0, 100, 0, 0.9);
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            display: block;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .item h3 {
+            color: #fff;
+        }
+        .larger-text {
+            font-size: 1.5em; /* Ajusta el tamaño según tus necesidades */
+        }
+        footer {
+            padding: 20px;
+            background-color: rgba(0, 100, 0, 0.8);
+            border-radius: 10px;
+            margin-top: 20px;
+            color: #fff;
+        }
+        input[type="search"] {
+            width: 80%;
+            padding: 10px;
+            margin: 20px auto;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            display: block;
+        }
+        audio {
+            display: block;
+            margin: 20px auto;
+        }

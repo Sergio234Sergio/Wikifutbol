@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+<header>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+   <link rel="stylesheet" href="script/script.js"/>
+  <title>historia del futbol</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuItems = document.querySelectorAll('.MENU > li');
+
+            menuItems.forEach(function(item) {
+                item.addEventListener('click', function() {
+                    const submenu = this.querySelector('.submenu');
+                    if (submenu.style.visibility === 'visible') {
+                        submenu.style.visibility = 'hidden';
+                        submenu.style.opacity = '0';
+                    } else {
+                        submenu.style.visibility = 'visible';
+                        submenu.style.opacity = '1';
+                    }
+                });
+            });
+        });
+    </script>
+  
+  <h1>Historia del Fútbol</h1>
+     <nav>
+    <ul class="MENU">
+        <li><a href="#">Introducción</a></li>
+        <li>
+            <a href="#">Historia</a>
+            <ul class="submenu">
+                <li><a href="historia .html">Historia</a></li>
+                <li><a href="competencia .html">Competencias</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Técnico</a>
+            <ul class="submenu">
+                <li><a href="tácticas .html">Tácticas</a></li>
+                <li><a href="Posiciones del Fútbol.html">Posiciones</a></li>
+                <li><a href="reglamento .html">Reglamento</a></li>
+            </ul>
+        </li>
+    </ul> 
+  </nav>
+  <input type="search" placeholder="Buscar...">
+
+</header>
+
+
+
+<section id="introduccion">
+  <h2>El fútbol es apasionante.</h2>
+  <p>Se remonta a civilizaciones antiguas que practicaban juegos similares, pero el fútbol moderno tal como lo conocemos hoy en día se originó en el siglo XIX en Inglaterra. A partir de ahí, el deporte se expandió rápidamente por todo el mundo, convirtiéndose en una pasión compartida por personas de todas las edades, razas y culturas.</p>
+  <p>La historia del fútbol está llena de momentos emocionantes, partidos legendarios y jugadores que han dejado una huella imborrable en el deporte. Desde la creación de las primeras reglas formales hasta la organización de competiciones internacionales, el fútbol ha experimentado una evolución fascinante a lo largo de los años.</p>
+</section>
+
+<section id="epocas-importantes">
+  <h2>Épocas Importantes en la Historia del Fútbol</h2>
+  <div class="container">
+    <div class="item">
+      <h3>Siglo XIX</h3>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQhuuCDnbsVIpv2R-9fhEj2WNNuzoQCbkuZw&s" alt="Siglo XIX">
+      <p>El siglo XIX marca el inicio del fútbol moderno en Inglaterra, con la creación de las primeras reglas formales del juego. Este período fue crucial para el desarrollo y la codificación del deporte, sentando las bases para su expansión global.</p>
+    </div>
+    <div class="item">
+      <h3>La Expansión Global</h3>
+      <img src="" alt="Expansión Global">
+      <p>A lo largo del siglo XX, el fútbol se expandió rápidamente por todo el mundo, convirtiéndose en un fenómeno global. Desde Sudamérica hasta Europa, Asia y África, el deporte ganó popularidad y se convirtió en una pasión compartida por personas de todas las edades y culturas.</p>
+    </div>
+    <div class="item">
+      <h3>Era Moderna</h3>
+      <img src="https://album.mediaset.es/eimg/2022/11/21/como-se-hizo-la-foto-de-messi-y-ronaldo-jugando-al-ajedrez_eb97.jpg?w=1200" alt="Era Moderna">
+      <p>En la era moderna, el fútbol ha experimentado una evolución continua, con avances en la tecnología, tácticas de juego y la organización de competiciones internacionales. Este período ha sido testigo de momentos emocionantes y la aparición de jugadores icónicos que han dejado una marca indeleble en la historia del deporte.</p>
+    </div>
+  </div>
+</section>
+
+<section id="jugadores-iconicos">
+  <h2>Jugadores Icónicos</h2>
+  <div class="container">
+    <div class="item" id="cristiano-ronaldo">
+      <h3><a href="https://www.transfermarkt.com/cristiano-ronaldo/profil/spieler/8198" target="_blank">Cristiano Ronaldo</a></h3>
+      <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS-_ycPMliqwjkLSNXt6aMeqPUvYxmz2NJ_PwgLJXxNuuEkQN8H5VApnN0r_vX3KMwMpebw3_EA5sNJHAo" alt="Cristiano Ronaldo">
+      <p>Cristiano Ronaldo es uno de los futbolistas más destacados de la historia, con una impresionante carrera llena de logros y récords. Ha jugado en clubes de renombre como el Manchester United, el Real Madrid y la Juventus, y ha ganado múltiples títulos de liga y trofeos individuales, incluyendo múltiples Balones de Oro.</p>
+    </div>
+    <div class="item" id="lionel-messi">
+      <h3><a href="https://www.transfermarkt.com/lionel-messi/profil/spieler/28003" target="_blank">Lionel Messi</a></h3>
+      <img src="https://fifpro.org/media/fhmfhvkx/messi-world-cup.jpg?rxy=0.48356841796117644,0.31512414378031967&width=1600&height=1024&rnd=133210253587130000" alt="Lionel Messi">
+      <p>Lionel Messi es uno de los jugadores más talentosos y exitosos de la historia del fútbol. Ha pasado toda su carrera en el FC Barcelona, donde ha ganado numerosos títulos de liga y de clubes, así como múltiples premios individuales, incluyendo varios Balones de Oro. Su habilidad para driblar, pasar y marcar goles lo ha convertido en una figura legendaria del deporte.</p>
+    </div>
+    <div class="item" id="pele">
+      <h3><a href="https://www.transfermarkt.com/pele/profil/spieler/17121" target="_blank">Pelé</a></h3>
+          <img src="https://media.cnnchile.com/sites/2/2022/12/Pel%C3%A9-740x430.png" alt="Pelé">
+      <p>Pelé es considerado uno de los mejores futbolistas de todos los tiempos y una leyenda del fútbol brasileño. Ganó tres Copas del Mundo con la selección de Brasil y anotó más de 1000 goles durante su carrera. Su habilidad técnica, velocidad y capacidad para marcar goles lo convierten en una figura icónica del deporte.</p>
+    </div>
+    <div class="item" id="diego-maradona">
+      <h3><a href="https://www.transfermarkt.com/diego-maradona/profil/spieler/8024" target="_blank">Diego Maradona</a></h3>
+      <img src="https://studiofutbol.com.ec/wp-content/uploads/2022/10/maradona.jpg" alt="Diego Maradona">
+      <p>Diego Maradona es recordado como uno  de los jugadores más talentosos y controvertidos en la historia del fútbol. Conocido por su famoso gol "La Mano de Dios" y su brillantez en el campo, Maradona ganó la Copa del Mundo de 1986 con Argentina y dejó una marca indeleble en el deporte.</p>
+    </div>
+  </div>
+</section>
+<section id="equipos-iconicos">
+  <h2>Equipos Icónicos</h2>
+  <div class="container">
+    <div class="item" id="real-madrid">
+      <h3><a href="https://www.transfermarkt.com/real-madrid/startseite/verein/418" target="_blank">Real Madrid</a></h3>
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" alt="Real Madrid">
+      <p>El Real Madrid es uno de los clubes más exitosos y reconocidos a nivel mundial. Fundado en 1902, ha ganado numerosos títulos de liga, copas nacionales e internacionales, incluyendo múltiples UEFA Champions League. Es conocido por su impresionante plantilla y su historia rica en éxitos.</p>
+    </div>
+    <div class="item" id="fc-barcelona">
+      <h3><a href="https://www.transfermarkt.com/fc-barcelona/startseite/verein/131" target="_blank">FC Barcelona</a></h3>
+      <img src="https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" alt="FC Barcelona">
+      <p>El FC Barcelona, conocido como Barça, es otro de los clubes más prestigiosos del mundo. Fundado en 1899, ha ganado numerosos títulos de liga y copas internacionales. Su estilo de juego característico y su cantera, La Masia, han producido algunos de los mejores jugadores de la historia del fútbol.</p>
+    </div>
+    <div class="item" id="manchester-united">
+      <h3><a href="https://www.transfermarkt.com/manchester-united/startseite/verein/985" target="_blank">Manchester United</a></h3>
+      <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg" alt="Manchester United">
+      <p>Manchester United es uno de los clubes más exitosos de Inglaterra y del mundo. Fundado en 1878, ha ganado numerosas Premier League, FA Cups y UEFA Champions League. Conocido por su espíritu de lucha y su gran base de seguidores, es un icono del fútbol mundial.</p>
+    </div>
+    <div class="item" id="ac-milan">
+      <h3><a href="https://www.transfermarkt.com/ac-milan/startseite/verein/5" target="_blank">AC Milan</a></h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg" alt="AC Milan">
+      <p>El AC Milan es uno de los clubes más exitosos de Italia y de Europa. Fundado en 1899, ha ganado numerosas Serie A y UEFA Champions League. Es conocido por su rica historia y su capacidad para atraer a algunos de los mejores talentos del fútbol mundial.</p>
+    </div>
+    <div class="item" id="bayern-munich">
+      <h3><a href="https://www.transfermarkt.com/fc-bayern-munchen/startseite/verein/27" target="_blank">Bayern Munich</a></h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_München_logo_%282017%29.svg" alt="Bayern Munich">
+      <p>El Bayern Munich es el club más exitoso de Alemania. Fundado en 1900, ha ganado numerosas Bundesliga y UEFA Champions League. Es conocido por su dominio en la liga alemana y su capacidad para competir al más alto nivel europeo.</p>
+    </div>
+    <div class="item" id="juventus">
+      <h3><a href="https://www.transfermarkt.com/juventus-turin/startseite/verein/506" target="_blank">Juventus</a></h3>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw4HqpTXRqVafKByGpNRwa91UmxZy-8PDFVQ&s" width="100%"alt="Juventus">
+      <p>La Juventus, conocida como la Vecchia Signora, es uno de los clubes más exitosos de Italia. Fundado en 1897, ha ganado numerosas Serie A y copas nacionales e internacionales. Es conocido por su fuerte defensa y su capacidad para atraer a grandes talentos.</p>
+    </div>
+    <div class="item" id="liverpool">
+      <h3><a href="https://www.transfermarkt.com/fc-liverpool/startseite/verein/31" target="_blank">Liverpool</a></h3>
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" alt="Liverpool">
+      <p>El Liverpool FC es uno de los clubes más exitosos de Inglaterra y de Europa. Fundado en 1892, ha ganado numerosas Premier League, FA Cups y UEFA Champions League. Es conocido por su historia rica y su base de seguidores apasionados.</p>
+    </div>
+    <div class="item" id="ajax">
+      <h3><a href="https://www.transfermarkt.com/afc-ajax/startseite/verein/610" target="_blank">Ajax Amsterdam</a></h3>
+      <img src="https://upload.wikimedia.org/wikipedia/en/7/79/Ajax_Amsterdam.svg" alt="Ajax Amsterdam">
+      <p>El Ajax Amsterdam es uno de los clubes más exitosos de los Países Bajos. Fundado en 1900, ha ganado numerosas Eredivisie y UEFA Champions League. Es conocido por su filosofía de formación de jóvenes talentos y su estilo de juego ofensivo y atractivo.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2024 Historia del Fútbol. Todos los derechos reservados.</p>
+</footer>
+
+
+</body></html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción a la Página Wiki de Fútbol</title>
+  <style>
+    <style>
+        body {
+            background-image: url('https://images.app.goo.gl/6AsAQ73baNfWT96K7');
+            background-size: cover;
+            background-attachment: fixed;
+            color: #000;
+            font-family: Arial, sans-serif;
+        }
+        .MENU > li {
+            position: relative;
+            display: inline-block;
+            background-color: #ccff99;
+            list-style: none;
+        }
+        .MENU > li > a {
+            display: block;
+            padding: 15px 20px;
+            color: #000000;
+            font-family: "Open sans";
+            text-decoration: none;
+        }
+        .MENU li a:hover {
+            color: #031233;
+            transition: all .3s;
+        }
+        .submenu {
+            position: absolute;
+            background: #588984;
+            width: 100%;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 1.5s;
+        }
+        .submenu li a {
+            display: block;
+            padding: 15px;
+            color: #41ff07;
+            font-family: "Open sans";
+            text-decoration: none;
+        }
+        .menu li:hover .submenu {
+            visibility: visible;
+            opacity: 1;
+        }
+        header, h1, h2, section, footer {
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 100, 0, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        iframe {
+            width: 800px;
+            height: 350px;
+            border: none;
+        }
+        p {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+            background-color: rgba(0, 100, 0, 0.8);
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        section {
+            margin: 40px 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .item {
+            width: 300px;
+            margin: 10px;
+            background-color: rgba(0, 100, 0, 0.9);
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #fff;
+            display: block;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .item h3 {
+            color: #fff;
+        }
+        .larger-text {
+            font-size: 1.5em;
+        }
+        footer {
+            padding: 20px;
+            background-color: rgba(0, 100, 0, 0.8);
+            border-radius: 10px;
+            margin-top: 20px;
+            color: #fff;
+        }
+        input[type="search"] {
+            width: 80%;
+            padding: 10px;
+            margin: 20px auto;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            display: block;
+        }
+        audio {
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuItems = document.querySelectorAll('.MENU > li');
+
+            menuItems.forEach(function(item) {
+                item.addEventListener('click', function() {
+                    const submenu = this.querySelector('.submenu');
+                    if (submenu.style.visibility === 'visible') {
+                        submenu.style.visibility = 'hidden';
+                        submenu.style.opacity = '0';
+                    } else {
+                        submenu.style.visibility = 'visible';
+                        submenu.style.opacity = '1';
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+  <header>
+    <h1>Wiki de Fútbol</h1>
+  </header>
+  <nav>
+    <ul class="MENU">
+      <li><a href="#">Introducción</a></li>
+      <li>
+          <a href="#">Historia</a>
+          <ul class="submenu">
+              <li><a href="historia .html">Historia</a></li>
+              <li><a href="competencia .html">Competencias</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="#">Técnico</a>
+          <ul class="submenu">
+              <li><a href="tácticas .html">Tácticas</a></li>
+              <li><a href="posición .html">Posiciones</a></li>
+              <li><a href="reglamento .html">Reglamento</a></li>
+          </ul>
+      </li>
+  </ul> 
+  </nav>
+  <section>
+    <h2>Introducción</h2>
+    <p>El fútbol es un deporte de equipo que se juega entre dos conjuntos de once jugadores cada uno. Es ampliamente considerado el deporte más popular del mundo, con una base de seguidores masiva y una rica historia.</p>
+    <img src="https://i.ibb.co/NVpcj6L/e-A1-YBfi-NQaq-Gdbp-Uz-GZMw-A.jpg" alt="e-A1-YBfi-NQaq-Gdbp-Uz-GZMw-A" width="300px" height="" border="0">
+    <p>La página Wiki de Fútbol es un recurso informativo que busca proporcionar información detallada sobre la historia, reglas, jugadores destacados, equipos y competiciones relacionadas con este apasionante deporte.</p>
+    <img src="https://i.ibb.co/St2hjVn/a-creative-and-dynamic-logo-for-a-football-themed-TXM9-IBjm-RIa-U36r5zlen4-A-i-3y-WR7-Rj-Opya-Pk-Eea.png" alt="a-creative-and-dynamic-logo-for-a-football-themed-TXM9-IBjm-RIa-U36r5zlen4-A-i-3y-WR7-Rj-Opya-Pk-Eea" width="300px" height="300px" border="0">
+  </section>
+  <section>
+    <h2>Contacto</h2>
+    <form action="#">
+      <input type="text" name="nombre" placeholder="Nombre" required>
+      <br>
+      <input type="email" name="email" placeholder="Email" required>
+      <br>
+      <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+      <br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2024 Wiki de Fútbol. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
